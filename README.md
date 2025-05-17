@@ -72,7 +72,6 @@ This Streamlit app uses Google Gemini and Phidata to analyze and summarize video
 ## 📄 License
 
 MIT License.  
-© 2025 Your Name
 
 ---
 
