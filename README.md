@@ -61,6 +61,7 @@ This Streamlit app uses Google Gemini and Phidata to analyze and summarize video
 
 ---
 
+<<<<<<< HEAD
 ## 💡 Use Cases
 
 - **Education:** Quickly summarize lecture or tutorial videos for students and teachers.
@@ -71,6 +72,8 @@ This Streamlit app uses Google Gemini and Phidata to analyze and summarize video
 
 ---
 
+=======
+>>>>>>> ae756d7557224ad989a1b8449748448c572e7596
 ## 🤖 Powered By
 
 - [Google Gemini](https://ai.google.dev/)
@@ -82,8 +85,15 @@ This Streamlit app uses Google Gemini and Phidata to analyze and summarize video
 ## 📄 License
 
 MIT License.  
+<<<<<<< HEAD
 © 2025 Your Name
 
 ---
 
 *Happy Summarizing! 🎬✨*
+=======
+
+---
+
+*Happy Summarizing! 🎬✨*
+>>>>>>> ae756d7557224ad989a1b8449748448c572e7596
