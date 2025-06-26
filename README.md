@@ -1,104 +1,89 @@
-# Agentic-AI-Video-Summarizer-Phidata-Google-Gemini-
-An intelligent tool that automatically summarizes video content using a pipeline of audio extraction, transcription (via Whisper), and AI summarization (via Google Gemini). Powered by Phidata, it runs an LLM-based agent to process video input and output concise summaries—perfect for lectures, podcasts, or long YouTube videos.
+# 🎥 Agentic AI Video Summarizer (Phidata + Google Gemini)
 
-
-# Phidata Video AI Summarizer Agent 🎥🎤🖬
-
-A Streamlit-based multimodal AI agent that summarizes and analyzes video content using Google Gemini and web search tools.
+Welcome to the **Agentic AI Video Summarizer**!  
+This Streamlit app uses Google Gemini and Phidata to analyze and summarize video content, providing actionable insights powered by AI.
 
 ---
 
-## Features
+## 🚀 Features
 
-- **Video Upload:** Supports `.mp4`, `.mov`, and `.avi` files.
-- **AI-Powered Analysis:** Uses Google Gemini 2.0 Flash Exp for video understanding.
-- **Web Context:** Integrates DuckDuckGo search for supplementary information.
-- **Interactive UI:** Built with Streamlit for easy use.
+- **Upload Videos:** Supports `.mp4`, `.mov`, `.avi` formats.
+- **AI-Powered Summaries:** Uses Gemini 2.0 Flash Exp for deep video analysis.
+- **Web Context:** Integrates DuckDuckGo for supplementary research.
+- **Interactive UI:** Built with Streamlit for a seamless user experience.
 
 ---
 
-## Requirements
+## 🛠️ Setup Instructions
 
-- Python 3.9 or higher
+1. **Clone the Repository**
+    ```bash
+    git clone https://github.com/your-username/your-repo.git
+    cd Agentic-AI-Video-Summarizer-Phidata-Google-Gemini-
+    ```
+
+2. **Install Dependencies**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. **Configure Environment Variables**
+
+    Create a `.env` file in the project root with your Gemini API key:
+    ```
+    GEMINI_API_KEY=your_gemini_api_key_here
+    ```
+
+4. **Run the App**
+    ```bash
+    streamlit run app.py
+    ```
+
+---
+
+## 📦 File Structure
+
+```
+├── app.py
+├── requirements.txt
+├── .env
+└── README.md
+```
+
+---
+
+## 📝 Usage
+
+1. Launch the app.
+2. Upload a video file.
+3. Enter your question or insight request.
+4. Click **Analyze Video** and receive a detailed summary!
+
+---
+
+## 💡 Use Cases
+
+- **Education:** Quickly summarize lecture or tutorial videos for students and teachers.
+- **Business:** Extract meeting highlights, action items, or key points from recorded calls.
+- **Content Creation:** Generate summaries or insights for YouTube, webinars, or marketing videos.
+- **Research:** Analyze interviews, documentaries, or research footage for key findings.
+- **Accessibility:** Provide concise video summaries for users with limited time or accessibility needs.
+
+---
+
+## 🤖 Powered By
+
+- [Google Gemini](https://ai.google.dev/)
+- [Phidata](https://phidata.com/)
 - [Streamlit](https://streamlit.io/)
-- [google-generativeai](https://pypi.org/project/google-generativeai/)
-- [python-dotenv](https://pypi.org/project/python-dotenv/)
-- `phi` package (must be obtained separately; not available on PyPI)
-- Google API Key (for Gemini)
 
 ---
 
-## Setup
+## 📄 License
 
-1. **Clone this repository:**
-   ```bash
-   git clone <your-repo-url>
-   cd Agentic-AI-Video-Summarizer-Phidata-Google-Gemini-
-   ```
-
-2. **Create and activate a virtual environment:**
-   ```bash
-   python -m venv video-env
-   video-env\Scripts\activate   # On Windows
-   # source video-env/bin/activate   # On macOS/Linux
-   ```
-
-3. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-   *(Create a `requirements.txt` with the following:*
-   ```
-   streamlit
-   google-generativeai
-   python-dotenv
-   # phi (install separately, see below)
-   ```
-   *)
-
-4. **Install the `phi` package:**
-   - If you have access to the `phi` package, install it as instructed by the provider.
-   - Example (if you have a wheel file):  
-     ```
-     pip install path\to\phi.whl
-     ```
-   - If you do not have the package, contact the code provider.
-
-5. **Set up your `.env` file:**
-   ```
-   GOOGLE_API_KEY=your_google_api_key_here
-   ```
+MIT License.  
+© 2025 Your Name
 
 ---
 
-## Usage
-
-1. **Run the Streamlit app:**
-   ```bash
-   streamlit run app.py
-   ```
-
-2. **Upload a video file** and enter your query in the text area.
-
-3. **Click "Analyze Video"** to receive AI-powered insights and summaries.
-
----
-
-## Notes
-
-- The `phi` package is required and must be obtained separately.
-- This app is for educational and research purposes.
-
----
-
-## License
-
-Specify your license here.
-
----
-
-## Acknowledgments
-
-- [Streamlit](https://streamlit.io/)
-- [Google Generative AI](https://ai.google.dev/)
-- [DuckDuckGo](https://duckduckgo.com/)
+*Happy Summarizing! 🎬✨*
